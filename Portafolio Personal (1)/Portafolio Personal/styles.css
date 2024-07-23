@@ -1,0 +1,142 @@
+/* Estilos Básicos */
+body {
+    font-family: Ink Free, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #080808;
+    background-image:url(https://plus.unsplash.com/premium_photo-1671751035347-e308f0a19b28?q=80&w=1112&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+header {
+    background: #28004e;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.gallery-item {
+    flex: 1 1 calc(33.333% - 1rem);
+    box-sizing: border-box;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 0.5rem;
+}
+
+form input,
+form textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 0.7rem;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+
+.social-links {
+    margin-top: 1rem;
+}
+
+.social-links a {
+    margin-right: 1rem;
+    color: #333;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Enlace de WhatsApp */
+.whatsapp-link {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.7rem 1.5rem;
+    background: #25D366;
+    /* Color de WhatsApp */
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
